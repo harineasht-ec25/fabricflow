@@ -1,0 +1,28 @@
+{
+  "name": "fabricflow-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.0",
+    "axios": "^1.6.2",
+    "chart.js": "^4.4.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-hot-toast": "^2.4.1",
+    "date-fns": "^3.0.6",
+    "serve": "^14.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "serve": "serve -s build"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.1"
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead"],
+    "development": ["last 1 chrome version"]
+  }
+}
